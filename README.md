@@ -1,8 +1,10 @@
 # Domain Message Flow Modelling
 
-Designing loosely-coupled systems requires more than carefully designed boundaries. Carefully defined interactions between bounded contexts is equally important.
+Designing loosely-coupled systems requires more than carefully designed boundaries. Carefully defined interactions between bounded contexts is equally important for avoiding tight coupling as Stefan Tilkov articulates:
 
-A [bounded context](https://martinfowler.com/bliki/BoundedContext.html) is a sub-system in a software architecture aligned to a part of the domain.
+> I think that for any given interaction triggered by some outside event – like e.g. a user clicking a button after entering data into a form – I’d end up touching maybe 3-5 of them [microservices].
+
+A [bounded context](https://martinfowler.com/bliki/BoundedContext.html) is a sub-system in a software architecture aligned to a part of the domain. It can be implemented as a microservice or a module within a monolith.
 
 A Domain Message Flow Diagram is a simple visualisation showing the flow of messages (commands, events, queries) between actors, bounded contexts, and systems, for a single scenario.
 
