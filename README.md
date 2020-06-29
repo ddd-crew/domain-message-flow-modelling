@@ -42,7 +42,7 @@ If you find that adding the data to each message is breaking your flow of progre
 
 ## Contributors
 
-Thank you to the following individuals who have all contributed to Domain Message Flow Modelling:
+Thanks to all [existing and future contributors](https://github.com/ddd-crew/domain-message-flow-modelling/graphs/contributors) and to the following individuals who have all contributed to Domain Message Flow Modelling:
 
 - [Kacper Gunia](https://github.com/cakper)
 - [Zsofia Herendi](https://twitter.com/zherendi)
