@@ -8,7 +8,31 @@ A [bounded context](https://martinfowler.com/bliki/BoundedContext.html) is a sub
 
 A Domain Message Flow Diagram is a simple visualisation showing the flow of messages (commands, events, queries) between actors, bounded contexts, and systems, for a single scenario.
 
-![alt text](resources/domain-message-flow.jpg "An Example Domain Message Flow")
+## Formats
+
+There are 2 basic formats, but there is no formal specification so adjust the tool to suit your needs if the basic formats don't work for you.
+
+### Separate Message & Contents
+
+The separate message & contents format uses 2 shapes for each message: 1 for the name and order of the message and a separate box to display the contents of the message (the information it carries).
+
+The benefit of this format is that you can focus on the flow of messages without getting bogged down by the message contents at the start.
+
+Start by showing just the messages flowing between senders and receivers (with the order number on the message).
+
+![Message Flow Just Messages](/resources/just-messages-no-contents.jpg)
+
+Then show the contents of each message in a separate box next to each message:
+
+![Message Flow Messages & Contents](/resources/messages-and-contents.jpg)
+
+### Combined Message & Contents
+
+The combined message & contents format uses a single shape to capture the message name, order, and contents.
+
+![Example Message Flow](resources/domain-message-flow.jpg "An Example Domain Message Flow")
+
+This format is good when you want to focus on the contents of each message from the beginning. It can be a bit cumbersome if you want to just focus on message names and ordering and ignore contents to begin with.
 
 ## How to Use
 When you have an initial cut of your architecture - you have identified candidate bounded contexts - you can begin design the message flows.
@@ -30,6 +54,7 @@ The message should contain 3 elements:
 3. The order in which the message occurs in the flow being modelled
 
 ## Visualisation Tips
+
 The number one problem with Domain Message Flow Diagrams, and diagrams in general, is too much information. [Miller's Law](https://en.wikipedia.org/wiki/Miller%27s_law) is a good heuristic to use here. Aim to have between 5 and 9 messages on your diagram.
 
 If you find that adding the data to each message is breaking your flow of progress, you can defer the data section of each message it until you have placed all of your messages.
