@@ -2,7 +2,7 @@
 
 Designing loosely-coupled systems requires more than carefully designed boundaries. Carefully defined interactions between bounded contexts is equally important for avoiding tight coupling as Stefan Tilkov articulates:
 
-> I think that for any given interaction triggered by some outside event – like e.g. a user clicking a button after entering data into a form – I’d end up touching maybe 3-5 of them [microservices].
+> I think that for any given interaction triggered by some outside event - like e.g. a user clicking a button after entering data into a form - I'd end up touching maybe 3-5 of them [microservices].
 
 A [bounded context](https://martinfowler.com/bliki/BoundedContext.html) is a sub-system in a software architecture aligned to a part of the domain. It can be implemented as a microservice or a module within a monolith.
 
@@ -32,9 +32,10 @@ The combined message & contents format uses a single shape to capture the messag
 
 ![Example Message Flow](resources/domain-message-flow.jpg "An Example Domain Message Flow")
 
-This format is good when you want to focus on the contents of each message from the beginning. It can be a bit cumbersome if you want to just focus on message names and ordering and ignore contents to begin with.
+This format is good when you want to focus on the contents of each message from the beginning.
 
 ## How to Use
+
 When you have an initial cut of your architecture - you have identified candidate bounded contexts - you can begin design the message flows.
 
 Start by creating a list of of scenarios to model. And then for each scenario create a diagram
