@@ -18,11 +18,11 @@ The benefit of this format is that you can focus on the flow of messages without
 
 Start by showing just the messages flowing between senders and receivers (with the order number on the message).
 
-![Message Flow Just Messages](/resources/just-messages-no-contents.jpg)
+![Message Flow Just Messages](resources/just-messages-no-contents.jpg)
 
 Then show the contents of each message in a separate box next to each message:
 
-![Message Flow Messages & Contents](/resources/messages-and-contents.jpg)
+![Message Flow Messages & Contents](resources/messages-and-contents.jpg)
 
 ### Combined Message & Contents
 
