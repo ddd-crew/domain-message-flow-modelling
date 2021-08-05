@@ -32,6 +32,10 @@ The combined message & contents format uses a single shape to capture the messag
 
 This format is good when you want to focus on the contents of each message from the beginning.
 
+### Downloads
+
+- [Domain Message Flow Modelling (miro board backup)](resources/Domain-Message-Flow-Modelling-en-v1.rtb)
+
 ## How to Use
 
 When you have an initial cut of your architecture - you have identified candidate bounded contexts - you can begin design the message flows.
@@ -79,7 +83,7 @@ Domain Message Flow Diagrams are heavily inspired by:
 
 ## Contributions and Feedback
 
-The Domain Message Flow Modelling notation is freely available for you to use. In addition, your feedback and ideas are welcome to improve the technique or to create alternative versions. 
+The Domain Message Flow Modelling notation is freely available for you to use. In addition, your feedback and ideas are welcome to improve the technique or to create alternative versions.
 
 Feel free to also send us a pull request with your examples.
 
