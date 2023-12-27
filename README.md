@@ -57,13 +57,18 @@ The message should contain 3 elements:
 3. The order in which the message occurs in the flow being modelled
 
 _Note:_ In case of a query, the response is just as important as the request. The information can be seen and represented as one unit, like this
-![Message as a query](resources/query-req-resp.png)
+<img src="resources/query-req-resp.png" alt="Message as a query" width="250" height="auto">
 
 ## Visualisation Tips
 
 The number one problem with Domain Message Flow Diagrams, and diagrams in general, is too much information. [Miller's Law](https://en.wikipedia.org/wiki/Miller%27s_law) is a good heuristic to use here. Aim to have between 5 and 9 messages on your diagram.
 
 If you find that adding the data to each message is breaking your flow of progress, you can defer the data section of each message it until you have placed all of your messages.
+
+### Time-Dependent Messages
+Sometimes messages are time-driven. E.g. scenario: cancel an online order after 5 minutes of inactivity. A visualisation like this could work fine. Important is to pay attention to the semantics: **within** or **after** or **every** 5 minutes are very different conditions.
+<img src="resources/time-dependent-message.png" alt="Time-dependent Message" width="80%" height="auto">
+
 
 ## Additional Resources
 
