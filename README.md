@@ -56,6 +56,9 @@ The message should contain 3 elements:
 2. The significant data contained within the message
 3. The order in which the message occurs in the flow being modelled
 
+_Note:_ In case of a query, the response is just as important as the request. The information can be seen and represented as one unit, like this
+![Message as a query](resources/query-req-resp.png)
+
 ## Visualisation Tips
 
 The number one problem with Domain Message Flow Diagrams, and diagrams in general, is too much information. [Miller's Law](https://en.wikipedia.org/wiki/Miller%27s_law) is a good heuristic to use here. Aim to have between 5 and 9 messages on your diagram.
