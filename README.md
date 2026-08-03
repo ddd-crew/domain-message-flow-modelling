@@ -6,6 +6,10 @@ A [bounded context](https://martinfowler.com/bliki/BoundedContext.html) is a sub
 
 A Domain Message Flow Diagram is a simple visualisation showing the flow of messages (commands, events, queries) between actors, bounded contexts, and systems, for a single scenario.
 
+## Translations
+
+- [Brazilian Portuguese (pt-BR)](translations/pt-br/README.md)
+
 ## Formats
 
 There are 2 basic formats, but there is no formal specification so adjust the tool to suit your needs if the basic formats don't work for you.
